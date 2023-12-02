@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Alumni Sans Regular';
+	src: url('../fonts/alumni_sans_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/alumni_sans_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/alumni_sans_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/alumni_sans_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/alumni_sans_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/alumni_sans_regular.svg#alumni_sans_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}

@@ -1,0 +1,816 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    background-color: black;
+    height: 80px;
+    padding-left: 100px;
+    align-items: center;
+}
+
+
+
+
+.reel_ h1 {
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+.reel_rover {
+    color: #F10E0E;
+
+    text-shadow: -5px 0px 1px rgba(44, 44, 44, 0.50);
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.reel_rover:hover {
+    text-shadow: -2px 0px 5px rgba(13, 34, 227, 0.50), -5px 0px 1px rgba(44, 44, 44, 0.50);
+    transition: 0.5s;
+}
+
+.center_lr:hover {
+
+    text-shadow: -2px 0px 5px rgba(13, 34, 227, 0.50), -5px 0px 1px rgba(44, 44, 44, 0.50), 0px 0px 50px white;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+header .line_1 {
+    margin-left: 110px;
+    margin-top: 5px;
+    opacity: 0.3;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    color: #FFF;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+nav a {
+    color: whitesmoke;
+    color: #FFF;
+    font-family: 'Alatsi-Regular';
+    text-shadow: 0px 4px 5px rgba(210, 210, 210, 0.50);
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+    text-shadow: 0px 0px 15px rgb(255, 247, 0);
+    transition: 0.5s;
+
+
+}
+
+nav .log_in:hover {
+    text-decoration-line: underline;
+    text-shadow: 0px 0px 10px rgb(0, 199, 253);
+    transition: 0.5s;
+}
+
+.div_1 {
+
+    height: 10px;
+    flex-shrink: 0;
+    fill: #282828;
+    box-shadow: 0px 3px 5px 0px rgba(199, 199, 199, 0.5) inset, 0px 5px 10px 0px rgba(122, 122, 122, 0.5) inset;
+
+    background-color: black;
+    position: relative;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+main {
+    background-color: black;
+    background-size: cover;
+}
+
+.section_1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/81e0/1ac9/13c6c05df733b44fce38fd10ac4a4e6a?Expires=1701043200&Signature=VmbhWK1kW85xxFIawqEUtbFW0qYLncyGf8v5DNXJUdRwK0o-Bd22QGkwpMLueKKDxk5UzZW18Qd~cWz3XRzFWjAESrzk~g2QkNgHdDPZ5kYJzZgKDQzXIgMhVZ7z8XfqTVGYazaXAuYY9pCD3nbKWhBON1oXWz5kXDVGR~OlC2MlUXGMYBhLPx8fXbNx-cZ~M0pZvxst-IkcQE2l5ru3TKb97WdTuuITIGvTKw39wxdTwDYKorMYL4nrHnMxjzqOgxY1nOVjtDkVsKMmO7JZuv0Rih6TSzuV51SuIP2LQaJuneX~7~akcVyb~ZZRtI0sssjr9DUVTO1g1QLVLU0lFg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-position: 0%;
+    flex-shrink: 0;
+    background-size: cover;
+
+    height: 760px;
+}
+
+main .desсription {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 30px;
+    top: 110px;
+}
+
+main .img_rr {
+    width: 120px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #684F4F;
+    box-shadow: -40px -60px 50px 5px rgba(246, 20, 20, 0.75) inset;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+
+main .digital_1 {
+    display: flex;
+
+}
+
+.digital_1 h1 {
+    color: white;
+    width: 350px;
+
+    color: #FFB800;
+
+    font-kerning: none;
+    font-family: 'Andada Pro SemiBold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 50;
+
+}
+
+.digital_1 .digital_dest {
+    color: #0038FF;
+    font-kerning: none;
+    font-family: 'Andada Pro SemiBold';
+    font-size: 40px;
+    font-style: normal;
+
+    line-height: normal;
+}
+
+.desc_1 {
+    position: relative;
+    left: 95px;
+    bottom: 40px;
+
+}
+
+.desc_1 .span_reel {
+    color: #F00;
+    font-family: 'Alumni Sans Regular';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div_p p {
+    width: 450px;
+    position: relative;
+    right: 15px;
+    top: 5px;
+}
+
+.desc_1 p {
+    color: #DFDFDF;
+    font-family: 'Alumni Sans Regular';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc_1 .span_roam {
+    color: #1DC9FF;
+    font-family: 'Alumni Sans Regular';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc_1 .but_12 {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    right: 15px;
+}
+
+.desc_1 .but_1 {
+    color: #FFF;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background: #1D93FF;
+    text-align: center;
+    font-family: 'Alumni Sans Regular';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 25px;
+}
+
+.but_1 .but_try {
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+
+    color: #FFF;
+}
+
+.but_1:hover {
+    background-color: #FFB800;
+
+
+    transition: 0.7s;
+
+}
+
+.but_try:hover {
+    color: #F00;
+    transition: 0.7s;
+}
+
+.desc_1 .but_2 {
+    color: #FFF;
+    height: 50px;
+    width: 145px;
+    border-radius: 10px;
+    background: #1DC9FF;
+    text-align: center;
+    font-family: 'Alumni Sans Regular';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 25px;
+
+}
+
+.but_2 .but_try_2 {
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    color: #FFF;
+}
+
+.but_2:hover {
+    background-color: #FFB800;
+
+
+    transition: 0.7s;
+
+}
+
+.but_try_2:hover {
+    color: #F00;
+    transition: 0.7s;
+}
+
+.img_but {
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+}
+
+.img_but .spider {
+    position: relative;
+    top: 5px;
+    right: 100px;
+}
+
+.img_but .but_img1 {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(25, 25, 25, 0.75);
+    position: relative;
+    left: 145px;
+    bottom: 270px;
+}
+
+
+.img_but .polygon {
+    position: relative;
+    top: 20px;
+    left: 22px;
+}
+
+
+
+
+.div_2 {
+
+    height: 10px;
+    flex-shrink: 0;
+    fill: #282828;
+    box-shadow: 0px 3px 5px 0px rgba(199, 199, 199, 0.5) inset, 0px 5px 10px 0px rgba(122, 122, 122, 0.5) inset;
+    background-color: black;
+    position: relative;
+    top: 220px;
+}
+
+.section_2 {
+    background-color: black;
+    position: relative;
+
+}
+
+.section_2 .main_in2 {
+    position: relative;
+    top: 20px;
+    right: 35px;
+}
+
+.section_2 .main_sermov {
+
+    position: relative;
+    left: 20px;
+    top: 100px;
+}
+
+.section_2 h1 {
+    color: #FFF;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Akshar', sans-serif;
+
+    text-transform: capitalize;
+    position: relative;
+    left: 30px;
+
+}
+
+.section_2 hr {
+
+    position: relative;
+    bottom: 5px;
+    left: 25px;
+}
+
+.section_2 .name_watch {
+    position: relative;
+    top: 0px;
+    left: 60px;
+
+}
+
+.name_watch h1:hover {
+    color: #FFB800;
+    transition: 0.5s;
+}
+
+
+.section_2 .name_mov {
+    position: relative;
+    top: 120px;
+    left: 60px;
+
+}
+
+.name_mov h1:hover {
+    color: #1D93FF;
+    transition: 0.5s;
+}
+
+
+.section_2 .under_watch {
+    width: 175px;
+
+}
+
+
+.section_2 .under_movie {
+    width: 175px;
+}
+
+.serials {
+
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 1400px;
+    position: relative;
+    top: 40px;
+    right: 25px;
+}
+
+.serials img {
+    border-radius: 10px;
+    width: 245px;
+    opacity: 0.7;
+}
+
+.ser_1img:hover {
+    opacity: 1;
+    width: 300px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.ser_2img:hover {
+    opacity: 1;
+    width: 290px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.ser_3img:hover {
+    opacity: 1;
+    width: 305px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.ser_4img:hover {
+    opacity: 1;
+    width: 305px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+
+
+
+.main_mov {
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.movies {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 1400px;
+    position: relative;
+    top: 160px;
+    right: 25px;
+}
+
+
+.movies img {
+
+    border-radius: 10px;
+    width: 245px;
+    opacity: 0.7;
+    position: relative;
+    bottom: 20px;
+}
+
+.mov_1img:hover {
+    opacity: 1;
+    width: 290px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+
+.mov_2img:hover {
+    opacity: 1;
+    width: 295px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+
+.mov_3img:hover {
+    opacity: 1;
+    width: 305px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+
+.mov_4img:hover {
+    opacity: 1;
+    width: 305px;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.div_3 {
+
+    height: 10px;
+    flex-shrink: 0;
+    fill: #282828;
+    box-shadow: 0px 3px 5px 0px rgba(199, 199, 199, 0.5) inset, 0px 5px 10px 0px rgba(122, 122, 122, 0.5) inset;
+    background-color: black;
+    position: relative;
+    top: 450px;
+}
+
+.section_3 {
+    background-color: #000;
+    height: 1700px;
+    position: relative;
+    top: 540px;
+
+}
+
+.section_3 .new_movie {
+    height: 60px;
+    width: 380px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #000 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: -5px 10px 20px 5px rgba(255, 255, 255, 0.25) inset;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.name_new_movie {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 20px;
+
+}
+
+.space_between_n_m_1 {
+    text-align: center;
+    display: flex;
+
+}
+
+
+.space_between_n_m_2 {
+    text-align: center;
+    display: flex;
+    margin-left: 40px;
+}
+
+.new_movie {
+    text-align: center;
+    display: flex;
+    float: left;
+    margin-left: 30px;
+
+
+}
+
+.new_movie span {
+    float: left;
+    margin-left: 20px;
+    flex-shrink: 0;
+    font-family: 'Alegreya Sans SC Light';
+    color: #FFF;
+    text-shadow: -5px 0px 10px whitesmoke, ;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+
+}
+
+.section_3 .dune_img {
+    background-image: url(https://images-s.kinorium.com/movie/poster/2808886/w1500_51723931.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+    width: 80%;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    right: 60px;
+}
+
+
+
+
+
+.dune_img .buy_w {
+    width: 230px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FF7A00;
+    box-shadow: 0px 5px 40px rgba(255, 32, 32, 0.75), 0 0px 20px rgb(144, 98, 13);
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    left: 45px;
+    top: 340px;
+}
+
+.dune_img a {
+    text-decoration: none;
+}
+
+.buy_w h1 {
+    font-family: 'Akshar', sans-serif;
+    position: relative;
+    font-size: 25px;
+    color: #FFF;
+    bottom: 25px;
+}
+
+.buy_w:hover {
+    box-shadow: 0 5px 50px rgb(250, 172, 26);
+    transition: 0.5s;
+}
+
+.buy_w h1:hover {
+
+    transition: 0.5s;
+}
+
+.dune_img h3 {
+    font-family: 'Alfa Slab One', serif;
+    position: relative;
+    top: 20px;
+    right: 240px;
+
+}
+
+.about_f {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    fill: #000;
+    box-shadow: -5px 5px 30px rgb(183, 183, 183) inset, 0 0px 20px rgb(144, 98, 13);
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 290px;
+    left: 320px;
+
+}
+
+.about_f:hover {
+    box-shadow: -5px 5px 30px rgb(183, 183, 183) inset, 0 5px 50px rgb(250, 172, 26);
+    transition: 0.5s;
+}
+
+.about_f h1 {
+    font-family: 'Akshar', sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+
+}
+
+.about_f h1:hover {
+
+    transition: 0.5s;
+}
+
+
+.lines {
+    width: 100%;
+    position: relative;
+    top: 270px;
+
+}
+.imgspider {
+    position: relative;
+    top: 400px;
+}
+.imgspider .spider_1{
+    display: flex;
+    
+    flex-shrink: 0;
+
+
+    color: #FFF;
+    font-family: 'Alumni Sans Regular';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+}
+
+.imgspider span {
+    float: left;
+    margin-left: 20px;
+    flex-shrink: 0;
+   
+    color: #FFF;
+    text-shadow: -5px 0px 10px whitesmoke, ;
+    font-size: 55px;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+
+}
+.under_spider {
+    width: 345px;
+    position: relative;
+    left: 20px;
+}
+
+@font-face {
+    font-family: 'Alatsi-Regular';
+    src: url('./fonts/alatsi-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alatsi-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alatsi-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alatsi-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alatsi-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alatsi-regular.svg#alatsi-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Andada Pro SemiBold';
+    src: url('./fonts/andada_pro_semibold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/andada_pro_semibold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/andada_pro_semibold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/andada_pro_semibold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/andada_pro_semibold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/andada_pro_semibold.svg#andada_pro_semibold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Alumni Sans Regular';
+    src: url('./fonts/alumni_sans_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alumni_sans_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alumni_sans_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alumni_sans_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alumni_sans_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alumni_sans_regular.svg#alumni_sans_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC Regular';
+    src: url('./fonts/alegreya_sans_sc_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alegreya_sans_sc_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alegreya_sans_sc_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alegreya_sans_sc_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alegreya_sans_sc_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alegreya_sans_sc_regular.svg#alegreya_sans_sc_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC Light';
+    src: url('./fonts/alegreya_sans_sc_light.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alegreya_sans_sc_light.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alegreya_sans_sc_light.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alegreya_sans_sc_light.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alegreya_sans_sc_light.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alegreya_sans_sc_light.svg#alegreya_sans_sc_light') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}

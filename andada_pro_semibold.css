@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Andada Pro SemiBold';
+	src: url('../fonts/andada_pro_semibold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/andada_pro_semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/andada_pro_semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/andada_pro_semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/andada_pro_semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/andada_pro_semibold.svg#andada_pro_semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+}

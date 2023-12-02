@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Alegreya Sans SC Light';
+	src: url('../fonts/alegreya_sans_sc_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/alegreya_sans_sc_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/alegreya_sans_sc_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/alegreya_sans_sc_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/alegreya_sans_sc_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/alegreya_sans_sc_light.svg#alegreya_sans_sc_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
